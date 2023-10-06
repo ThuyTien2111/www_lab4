@@ -60,51 +60,7 @@ Cấu hình ứng dụng được lưu trong tệp `application.properties`. D�
 
 - `spring.datasource.driver-class-name`: Tên lớp driver của MariaDB.
 - `spring.datasource.url`: URL kết nối đến cơ sở dữ liệu.
-- `spring.datasource.username`: Tên đăng nhập vào cơ sở dữ liệu.
-- `spring.datasource.password`: Mật khẩu đăng nhập vào cơ sở dữ liệu.
-- `spring.jpa.hibernate.ddl-auto`: Cài đặt tự động tạo bảng (update để cập nhật).
-- `spring.jpa.show-sql`: Hiển thị các câu lệnh SQL được thực thi trong log.
-
-## Chạy Ứng dụng
-
-Để chạy ứng dụng, bạn chỉ cần chạy phương thức `main` trong lớp `Lab4Application`. Ứng dụng sẽ khởi động và cấu hình cơ sở dữ liệu MariaDB theo cài đặt trong `application.properties`. Sau đó, bạn có thể sử dụng các phương thức DAO đã được triển khai trong package `dao` để quản lý kỹ năng.
-
-## Unit Testing
-
-Để chạy các unit test, bạn có thể sử dụng một framework kiểm thử như JUnit. Các testcase đã được định nghĩa trong lớp `SkillDaoApplicationTest`. Chúng sẽ kiểm tra các phương thức DAO để đảm bảo tính đúng đắn và hiệu suất của chúng.
-
-## Lưu ý
-
-- Đảm bảo rằng bạn đã cấu hình cơ sở dữ liệu MariaDB với thông tin đăng nhập và mật khẩu đúng trong tệp `application.properties`.
-
-- Trước khi chạy các testcase, hãy xem xét cách bạn muốn cài đặt dữ liệu ban đầu trong cơ sở dữ liệu (bạn có thể bỏ comment phần `setUp` trong lớp `SkillDaoApplicationTest`).
-
-- Hãy cập nhật các phần trong ứng dụng và testcases để phù hợp với nhu cầu cụ thể của bạn.
-
-## Thư viện và Công nghệ sử dụng
-
-Dự án Lab 4 Spring Boot sử dụng một số thư viện và công nghệ quan trọng sau đây:
-
-- **Spring Boot**: Framework phát triển ứng dụng Java dựa trên Spring Framework.
-- **MariaDB**: Hệ quản trị cơ sở dữ liệu sử dụng để lưu trữ thông tin trong ứng dụng.
-- **JUnit**: Framework kiểm thử cho việc viết các testcase.
-- **Maven**: Quản lý dự án và quản lý thư viện Java.
-- **IntelliJ IDEA**: Môi trường phát triển tích hợp (IDE) cho Java.
-
-## Đóng góp
-
-Nếu bạn muốn đóng góp vào dự án Lab 4 Spring Boot, bạn có thể thực hiện các bước sau:
-
-1. Fork dự án trên [GitHub](https://github.com/ThuyTien2111/www_lab4.git).
-2. Tạo một nhánh mới cho các tính năng hoặc sửa đổi bạn muốn thêm vào.
-3. Thực hiện các thay đổi và thêm các testcase liên quan.
-4. Tạo một pull request để xem xét và hợp nhất thay đổi của bạn vào dự án gốc.
-
-Chúng tôi hoan nghênh sự đóng góp từ cộng đồng để cải thiện dự án này.
-
-## Tác giả
-
-- [THUY TIEN](https://github.com/ThuyTien2111): Mô tả về tác giả 1.
+- `spring.datasource.username`: Tên đăng nhậpTPHCM) .
 
 Hãy liên hệ với các tác giả nếu bạn có bất kỳ câu hỏi hoặc ý kiến đóng góp về dự án này.
 
