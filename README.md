@@ -80,3 +80,32 @@ Cấu hình ứng dụng được lưu trong tệp `application.properties`. D�
 - Trước khi chạy các testcase, hãy xem xét cách bạn muốn cài đặt dữ liệu ban đầu trong cơ sở dữ liệu (bạn có thể bỏ comment phần `setUp` trong lớp `SkillDaoApplicationTest`).
 
 - Hãy cập nhật các phần trong ứng dụng và testcases để phù hợp với nhu cầu cụ thể của bạn.
+
+## Thư viện và Công nghệ sử dụng
+
+Dự án Lab 4 Spring Boot sử dụng một số thư viện và công nghệ quan trọng sau đây:
+
+- **Spring Boot**: Framework phát triển ứng dụng Java dựa trên Spring Framework.
+- **MariaDB**: Hệ quản trị cơ sở dữ liệu sử dụng để lưu trữ thông tin trong ứng dụng.
+- **JUnit**: Framework kiểm thử cho việc viết các testcase.
+- **Maven**: Quản lý dự án và quản lý thư viện Java.
+- **IntelliJ IDEA**: Môi trường phát triển tích hợp (IDE) cho Java.
+
+## Đóng góp
+
+Nếu bạn muốn đóng góp vào dự án Lab 4 Spring Boot, bạn có thể thực hiện các bước sau:
+
+1. Fork dự án trên [GitHub](https://github.com/ThuyTien2111/www_lab4.git).
+2. Tạo một nhánh mới cho các tính năng hoặc sửa đổi bạn muốn thêm vào.
+3. Thực hiện các thay đổi và thêm các testcase liên quan.
+4. Tạo một pull request để xem xét và hợp nhất thay đổi của bạn vào dự án gốc.
+
+Chúng tôi hoan nghênh sự đóng góp từ cộng đồng để cải thiện dự án này.
+
+## Tác giả
+
+- [THUY TIEN](https://github.com/ThuyTien2111): Mô tả về tác giả 1.
+
+Hãy liên hệ với các tác giả nếu bạn có bất kỳ câu hỏi hoặc ý kiến đóng góp về dự án này.
+
+
