@@ -100,7 +100,7 @@ Nếu bạn muốn đóng góp vào dự án Lab 4 Spring Boot, bạn có thể 
 3. Thực hiện các thay đổi và thêm các testcase liên quan.
 4. Tạo một pull request để xem xét và hợp nhất thay đổi của bạn vào dự án gốc.
 
-Chúng tôi hoan nghênh sự đóng góp từ cộng đồng để cải thiện dự án này.
+Tôi hoan nghênh sự đóng góp từ cộng đồng để cải thiện dự án này.
 
 ## Tác giả
 
